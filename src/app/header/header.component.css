@@ -1,0 +1,29 @@
+
+.head{
+    margin-bottom: 20px;
+    height: auto;
+    max-height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-size: contain;
+    width: auto;
+}
+.logo{
+    margin-top: 5px;
+    margin-bottom: 400px;
+    margin-left: 5px;
+    margin-right: 20px;
+    height: 50px;
+    position: relative;   
+}
+
+.center{
+    margin-top: 100;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width:  50%;
+    position: relative;
+    border: solid white 2px;  
+}
