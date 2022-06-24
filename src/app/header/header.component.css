@@ -1,11 +1,10 @@
-
-.head{
-    margin-bottom: 20px;
-    height: auto;
-    max-height: 800px;
-    background-position: center;
-    background-size: cover;
-    background-size: contain;
+.background-image {
+    background-image: url(https://cdn.unenvironment.org/2020-02/sustainable-cities.jpg); 
+    background-size:cover;
+    padding: 0;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 40%;
     width: auto;
 }
 .logo{
@@ -16,14 +15,21 @@
     height: 50px;
     position: relative;   
 }
-
 .center{
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
-    height: 150px;
-    width:  75%;
-    position: relative;
-    border: solid white 2px;  
+    height: auto;
+    width: 50%;
+    position: absolute;
+    border: solid white 2px; 
+}
+
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
